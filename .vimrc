@@ -15,7 +15,7 @@
   set nocompatible " we're running Vim, not Vi!
   filetype off     " disable file type detection
 
-  set rtp+=~/.vim/vundle/
+  set rtp+=~/.vim/bundle/vundle
   call vundle#rc()
 
   """ repos on vim.org {{{
@@ -23,7 +23,7 @@
     Bundle 'YankRing.vim'
     Bundle 'mru.vim'
     Bundle 'quickrun.vim'
-    Bundle 'Smooth-Scroll'
+    "Bundle 'Smooth-Scroll'
     Bundle 'The-NERD-Commenter'
     Bundle 'eregex.vim'
     Bundle 'Align'
