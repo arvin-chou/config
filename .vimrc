@@ -79,7 +79,7 @@
     Bundle 'elzr/vim-json'
     Bundle 'bling/vim-airline'
     Bundle 'digitaltoad/vim-jade'
-    Bundle 'dyng/ctrlsf.vim'
+    "Bundle 'dyng/ctrlsf.vim'
     Bundle 'mtscout6/vim-cjsx'
   " }}}
 
@@ -665,7 +665,7 @@
                            \ 'passive_filetypes': ['html'] }
   " }}}
   " ctrlsf.vim {{{
-    nnoremap <C-f><C-f> :<C-u>CtrlSF<Space>
+  "  nnoremap <C-f><C-f> :<C-u>CtrlSF<Space>
   " }}}
 " }}}
 

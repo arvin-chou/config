@@ -9,10 +9,10 @@
     attributesfile    = ~/.gitattributes
 [init]
 	templatedir       = ~/.git_template
-[push]
-	default           = simple
+#[push]
+#	default           = master
 [pull]
-	default           = simple
+	default           = master
 	rebase            = true
 [merge]
 	log               = true
