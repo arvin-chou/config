@@ -1,7 +1,7 @@
 autodetach      on
 bell_msg        "Bell in window %^G"
-defscrollback   10000
-escape          ^tt
+defscrollback   10000000
+#escape          ^tt
 shell           zsh
 startup_message off
 vbell           off
@@ -83,19 +83,19 @@ screen -t n 4
 screen -t n 5
 screen -t n 6
 screen -t n 7
-screen -t n 8
-screen -t n 9
-screen -t n 10
-screen -t n 11
-screen -t n 12
-screen -t n 13
-screen -t n 14
-screen -t n 15
-screen -t n 16
-screen -t n 17
-screen -t n 18
-screen -t n 19
-screen -t n 20
+#screen -t n 8
+#screen -t n 9
+#screen -t n 10
+#screen -t n 11
+#screen -t n 12
+#screen -t n 13
+#screen -t n 14
+#screen -t n 15
+#screen -t n 16
+#screen -t n 17
+#screen -t n 18
+#screen -t n 19
+#screen -t n 20
 select 1
 
 # ↓黄色のステータスバーにするが、どうにも字のコントラストがよくない
