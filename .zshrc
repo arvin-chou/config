@@ -153,9 +153,9 @@ unsetopt CORRECT_ALL          # 対象のファイルもスペルチェックを
 # }}}
 
 # Setup vars {{{
-export LC_ALL="C"
+#export LC_ALL="C"
 export LANG="zh_TW.UTF-8"
-#export LC_ALL="zh_TW.UTF-8"
+export LC_ALL="zh_TW.UTF-8"
 export LANGUAGE=zh_TW.UTF-8
 export LC_CTYPE="zh_TW.UTF-8"
 export TERM=xterm-256color
