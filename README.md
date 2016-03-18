@@ -14,7 +14,7 @@ sudo apt-get install fortune
 sudo apt-get install cowsay
 
 $ mkdir ~/git
-$ git clone --recursive git://github.com/banyan/config ~/git/config
+$ git clone --recursive git://github.com/arvin-chou/config.git ~/git/config
 $ cd ~/git/config
 $ rake dotfiles:setup -v noop=true # run as dry-run
 $ rake dotfiles:setup -v force=true
@@ -23,7 +23,7 @@ $ rake dotfiles:setup -v force=true
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle/
 
 # install antigen
-source ~/.antigen/antigen.zsh
+source ~/.zsh.d/antigen/antigen.zsh
 antigen theme banyan
 antigen apply
 ```
