@@ -1,6 +1,6 @@
 autodetach      on
 bell_msg        "Bell in window %^G"
-defscrollback   10000000
+defscrollback   10000
 #escape          ^tt
 shell           zsh
 startup_message off
